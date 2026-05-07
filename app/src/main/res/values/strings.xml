@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Atlas App</string>
+    <string name="egypt">Egypt</string>
+    <string name="canada">Canada</string>
+    <string name="morocco">Morocco</string>
+    <string name="switzerland">Switzerland</string>
+</resources>
