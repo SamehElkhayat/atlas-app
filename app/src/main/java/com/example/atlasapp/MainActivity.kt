@@ -104,7 +104,7 @@ private fun CountryListItem(country: Country, modifier: Modifier = Modifier) {
         contentAlignment = Alignment.Center,
         modifier = Modifier
             .fillMaxWidth()
-            .padding(vertical = 4.dp)
+            .padding(vertical = 5.dp)
             .clickable{
                 val i = Intent(
                     Intent.ACTION_VIEW,
