@@ -3,11 +3,9 @@ package com.example.atlasapp
 import android.content.Intent
 import android.content.res.Configuration
 import android.os.Bundle
-import android.provider.ContactsContract
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.annotation.StringRes
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -43,7 +41,6 @@ import com.example.atlasapp.data.DataSource
 import com.example.atlasapp.model.Country
 import com.example.atlasapp.ui.theme.AtlasAppTheme
 import com.example.atlasapp.ui.theme.SmokedSteel
-import kotlin.coroutines.Continuation
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
